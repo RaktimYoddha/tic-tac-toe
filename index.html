@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <link type="text/css" rel="stylesheet" href="tictactoe.css">
+  </head>
+  <body onload="StartGame()">
+    <h1><font class="h">Tic-Tac-Toe</font></h1>
+    <div id="message" class="t1">Result</div>
+    <table class="tb">
+      <tr>
+        <td id="s1" class="square" onclick="nextmove(this);"></td>
+        <td id="s2" class="square" onclick="nextmove(this);"></td>
+        <td id="s3" class="square" onclick="nextmove(this);"></td>
+      </tr>
+      <tr>
+        <td id="s4" class="square" onclick="nextmove(this);"></td>
+        <td id="s5" class="square" onclick="nextmove(this);"></td>
+        <td id="s6" class="square" onclick="nextmove(this);"></td>
+      </tr>
+      <tr>
+        <td id="s7" class="square" onclick="nextmove(this);"></td>
+        <td id="s8" class="square" onclick="nextmove(this);"></td>
+        <td id="s9" class="square" onclick="nextmove(this);"></td>
+      </tr>
+    </table>
+    <button type="button" onclick="StartGame()" class="but">Start New Game</button>
+    <script type="text/javascript" src="tictactoe.js"></script>
+  </body>
+</html>
