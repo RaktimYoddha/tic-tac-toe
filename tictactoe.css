@@ -27,6 +27,7 @@ table tr td:hover{
   position: absolute;
   width: 200px;
   height: 50px;
+  margin-top: 20px;
   background-color: #000;
   color: white;
   border-radius: 10px;
